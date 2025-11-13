@@ -17,7 +17,8 @@ Technology Used
 
 Programming Language: Python
 
-Libraries: OpenCV, Mediapipe, PyAutoGUI
+Libraries: OpenCV, Mediapipe, PyAutoGUI, numpy, time 
+
 
 Hardware: Standard Webcam
 
@@ -46,7 +47,7 @@ Installation / Setup
 git clone <https://github.com/yasir22a/mouse_Gesture_control/>
 
 # Install dependencies
-pip install opencv-python mediapipe pyautogui
+pip install opencv-python mediapipe pyautogui,numpy, time
 
 # Run the project
 python hand_gesture_control.py
